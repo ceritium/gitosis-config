@@ -11,7 +11,11 @@
 == Usage
 
     require 'gitosis-config-generator'
-
+    
+    g = GitosisConfigGenerator.new
+    g.add_group(:team, :writable => ['one', 'two', 'three'], :readonly => 'six')
+    g.to_file('gitosis-config.txt')
+    
 == License
 
 Copyright (c) 2009 José Galisteo Ruiz

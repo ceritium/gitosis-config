@@ -27,10 +27,3 @@ class GitosisConfigGenerator
 end
 
 
-
-# Example
-#
-# config = GitosisCofigGenerator.new
-# config.add_group('babelhub', :members => ['deploy@flowersinspace', 'deploy@babelhub'], :writable => 'google')
-# config.add_group('work-deploy', :members => ['deploy@mola_mazo'], :readonly => ['billgate', 'stallman'])
-# config.to_file('exit.txt')
